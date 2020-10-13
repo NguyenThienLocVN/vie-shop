@@ -2964,7 +2964,7 @@ if ( ! function_exists( 'wc_dropdown_variation_attribute_options' ) ) {
 				'name'             => '',
 				'id'               => '',
 				'class'            => '',
-				'show_option_none' => __( 'Choose an option', 'woocommerce' ),
+				'show_option_none' => __( 'Select size', 'woocommerce' ),
 			)
 		);
 
