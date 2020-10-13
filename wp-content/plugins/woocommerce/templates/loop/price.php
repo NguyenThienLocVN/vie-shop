@@ -25,3 +25,4 @@ global $product;
 <?php if ( $price_html = $product->get_price_html() ) : ?>
 	<span class="price"><?php echo $price_html; ?></span>
 <?php endif; ?>
+<button href="<?php echo get_permalink( $product->ID ) ?>" name="add-to-cart" class="single_add_to_cart_button button alt">MUA NGAY</button>
